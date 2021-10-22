@@ -33,7 +33,7 @@ body {
 }
 
 .groceries input {
-  font-family: 'modul';
+  font-family: 'Mumblers Demo';
   outline: 0;
   border: 0;
   border-bottom: 3px solid grey;
@@ -44,7 +44,7 @@ body {
 #allItems h2 {
   margin: 15px 10px 0 50px;
   font-size: 2rem;
-  font-family: 'modul';
+  font-family: 'Mumblers Demo';
 }
 
 @media (max-width: 480px) {
