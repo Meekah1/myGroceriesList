@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Algerian';
+  background-color: #1515d8bd;
+}
+.container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+
+.groceries {
+  min-height: 100vh;
+  width: 600px;
+  margin: auto;
+  background-color: white;
+  box-shadow: 10px 10px 24px 0 rgba(0, 0, 0, 0.5);
+}
+
+.groceries h1 {
+  font-size: 2.5rem;
+  margin-top: 1rem;
+}
+
+.groceries i {
+  cursor: pointer;
+  font-size: 2rem;
+  color: #1515d8bd;
+}
+
+.groceries input {
+  font-family: 'modul';
+  outline: 0;
+  border: 0;
+  border-bottom: 3px solid grey;
+  width: 65%;
+  font-size: 1.5rem;
+}
+
+#allItems h2 {
+  margin: 15px 10px 0 50px;
+  font-size: 2rem;
+  font-family: 'modul';
+}
+
+@media (max-width: 480px) {
+  .groceries h1 {
+    font-size: 2rem;
+  }
+  .groceries i {
+    font-size: 1.5rem;
+  }
+  .groceries input {
+    font-size: 1rem;
+  }
+  #allItems h2 {
+    margin-left: 25px;
+    font-size: 1.5rem;
+  }
+}
